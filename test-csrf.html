@@ -1,11 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test CSRF</title>
+</head>
 <body>
-  <h2>Test CSRF - Root-Me</h2>
-  <form action="https://instance-01a13ac9-203b-7218-80b7-14904394a665.challenges.root-me.pro/transfer" method="POST">
-    <input type="hidden" name="recipient" value="test">
-    <input type="hidden" name="amount" value="0">
-    <button type="submit">Tester le formulaire</button>
-  </form>
+  <h2>Page de test Root-Me</h2>
+  <p>La page s'est chargée correctement.</p>
+  <script>
+    console.log("Page de test chargée");
+  </script>
 </body>
 </html>
